@@ -1,0 +1,140 @@
+.fond {
+    background-image: url("https://i2.wp.com/www.fmsursoloexitos.com.ar/wp-content/uploads/2018/04/background-web.jpg?ssl=1");
+    background-image: no-repeat;
+}
+
+.Accueil {
+    padding: 118px 600px;
+    color: rgb(0, 0, 0) font-family: Verdana, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-shadow: 0 0 2px #fefcc9, 1px -1px 3px #feec85, -2px -2px 4px #ffae34, 2px -4px 5px #ec760c, -2px -6px 6px #cd4606, 0 -8px 7px #973716, 1px -9px 8px #451b0e;
+}
+
+.velo {
+    margin-left: 70%;
+    margin-top: -15%;
+}
+
+#menu,
+#menu ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+
+
+/* background des liens menus */
+
+#menu li:first-child {
+    background-color: rgb(0, 1, 8);
+    background-image: -webkit-linear-gradient(top, rgb(7, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(7, 0, 0)1, 14) 0%, rgb(0, 0, 0) 100%);
+}
+
+#menu li:nth-child(2) {
+    background-color: rgb(0, 5, 8);
+    background-image: -webkit-linear-gradient(top, rgb(5, 5, 0) 0%, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+#menu li:nth-child(3) {
+    background-color: rgb(7, 5, 0);
+    background-image: -webkit-linear-gradient(top, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+#menu li:nth-child(4) {
+    background-color: rgb(0, 0, 2);
+    background-image: -webkit-linear-gradient(top, rgb(22, 27, 1) 0%, rgb(2, 0, 8) 100%);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+#menu li:last-child {
+    background-color: rgb(4, 5, 0);
+    background-image: -webkit-linear-gradient(top, rgb(0, 0, 0) 0%, rgb(5, 7, 0) 100%);
+    background-image: linear-gradient(to bottom, rgb(2, 3, 0) 0%, rgb(5, 7, 0)10, 0) 100%);
+}
+
+
+/* background des liens menus et sous menus au survol */
+
+#menu li:first-child:hover,
+#menuli:first-child li:hover {
+    background: #65537A;
+}
+
+#menu li:nth-child(2):hover,
+#menu li:nth-child(2) li:hover {
+    background: #729EBF;
+}
+
+#menu li:nth-child(3):hover,
+#menu li:nth-child(3) li:hover {
+    background: #F6AD1A;
+}
+
+#menu li:nth-child(4):hover,
+#menu li:nth-child(4) li:hover {
+    background: rgb(192, 77, 10);
+}
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 120px;
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#menu ul a {
+    padding: 8px 0;
+}
+
+
+/* Image */
+
+div.gallery {
+    border: 20px solid rgb(7, 7, 7);
+}
+
+div.gallery:hover {
+    border: 15px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24%
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
